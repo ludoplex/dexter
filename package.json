@@ -11,6 +11,9 @@
     "start": "bun run src/index.tsx",
     "dev": "bun --watch run src/index.tsx",
     "typecheck": "tsc --noEmit",
+    "lint": "biome check src/",
+    "lint:fix": "biome check --write src/",
+    "format": "biome format --write src/",
     "test": "bun test",
     "test:watch": "bun test --watch"
   },
@@ -30,6 +33,7 @@
   "devDependencies": {
     "@babel/core": "^7.28.5",
     "@babel/preset-env": "^7.28.5",
+    "@biomejs/biome": "^2.3.8",
     "@types/bun": "latest",
     "@types/jest": "^29.5.14",
     "@types/react": "^19.2.7",
