@@ -1,0 +1,108 @@
+{
+  "description": "Publicly traded activist investor firms and related vehicles",
+  "last_updated": "2024-12-10",
+  "publicly_traded_activist_funds": [
+    {
+      "name": "Icahn Enterprises L.P.",
+      "ticker": "IEP",
+      "exchange": "NASDAQ",
+      "key_figure": "Carl Icahn",
+      "type": "Diversified Holding Company",
+      "country": "US",
+      "notes": "Primary US-listed pure-play activist vehicle"
+    },
+    {
+      "name": "Pershing Square Holdings, Ltd.",
+      "ticker": "PSH",
+      "exchange": "LSE",
+      "alternate_exchange": "Euronext Amsterdam",
+      "key_figure": "Bill Ackman",
+      "type": "Closed-End Fund",
+      "country": "UK",
+      "notes": "Concentrated activist positions, high-profile campaigns"
+    },
+    {
+      "name": "Third Point Investors Limited",
+      "ticker": "TPOU",
+      "exchange": "LSE",
+      "key_figure": "Daniel Loeb",
+      "type": "Closed-End Fund",
+      "country": "UK",
+      "notes": "Event-driven activist strategies"
+    },
+    {
+      "name": "Elliott Opportunity II Corp.",
+      "ticker": "EOCW",
+      "exchange": "NYSE",
+      "key_figure": "Paul Singer",
+      "type": "SPAC",
+      "country": "US",
+      "notes": "Special purpose acquisition company affiliated with Elliott Management"
+    }
+  ],
+  "asset_managers_with_activist_strategies": [
+    {
+      "name": "BlackRock Inc.",
+      "ticker": "BLK",
+      "exchange": "NYSE",
+      "type": "Asset Manager",
+      "activist_focus": "ESG activism, corporate governance engagement",
+      "aum_trillion_usd": 10.0
+    },
+    {
+      "name": "State Street Corporation",
+      "ticker": "STT",
+      "exchange": "NYSE",
+      "type": "Asset Manager / Custodian",
+      "activist_focus": "ESG/governance activism through proxy voting"
+    },
+    {
+      "name": "Invesco Ltd.",
+      "ticker": "IVZ",
+      "exchange": "NYSE",
+      "type": "Asset Manager",
+      "activist_focus": "Occasional activist engagement"
+    }
+  ],
+  "major_private_activist_firms": [
+    {
+      "name": "ValueAct Capital",
+      "founder": "Jeff Ubben",
+      "status": "Private",
+      "style": "Constructivist activism"
+    },
+    {
+      "name": "Starboard Value LP",
+      "founder": "Jeff Smith",
+      "status": "Private",
+      "style": "Operational improvements, board seats"
+    },
+    {
+      "name": "Trian Fund Management",
+      "founder": "Nelson Peltz",
+      "status": "Private",
+      "style": "Operational activism, cost cutting"
+    },
+    {
+      "name": "Jana Partners",
+      "founder": "Barry Rosenstein",
+      "status": "Private",
+      "style": "Event-driven, M&A activism"
+    },
+    {
+      "name": "Engine No. 1",
+      "founder": "Chris James",
+      "status": "Private",
+      "style": "ESG/climate activism"
+    },
+    {
+      "name": "Corvex Management",
+      "founder": "Keith Meister",
+      "status": "Private",
+      "style": "Event-driven activism"
+    }
+  ],
+  "us_tradeable_tickers": ["IEP", "EOCW", "BLK", "STT", "IVZ"],
+  "international_tickers": ["PSH", "TPOU"]
+}
+
